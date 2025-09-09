@@ -327,8 +327,21 @@ git commit -m "Restructuration pour déploiement Render"
 git push origin main
 ```
 
+### 🌐 Test de l'API en Production
+
+Une fois déployée, vous pouvez tester l'API directement :
+
+```bash
+# Test rapide de l'API en production
+curl -u admin:admin https://api-sb-sts.onrender.com/employees
+```
+ou via Postman
 ---
 
 **Développé par BB & Spring Boot**
 
 *Ce projet démontre une approche complète du développement d'API REST, du développement local au déploiement en production, en passant par la containerisation Docker et l'hébergement sur Render.*
+
+**🔗 Liens utiles :**
+- **API en Production :** [https://api-sb-sts.onrender.com](https://api-sb-sts.onrender.com)
+- **Code Source :** [https://github.com/BrianBrusly/API-Sb-STS-](https://github.com/BrianBrusly/API-Sb-STS-)
